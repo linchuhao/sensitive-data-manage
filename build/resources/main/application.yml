@@ -1,0 +1,20 @@
+server:
+  port: 8889
+
+spring:
+  datasource:
+    username: root
+    password: csSI2011
+    url: jdbc:mysql://zha-csci11-w10:3306/test_db?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=CTT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #JPA
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+text:
+  key: "'private_key'"
+  construct: "'construct_key'"
+  privateKey: "a2Kj5$7N9g!@#3%9"
